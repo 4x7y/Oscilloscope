@@ -1,0 +1,12 @@
+# The sources for the PCI_0228 device driver:
+
+TARGETNAME=PCI_0228
+TARGETTYPE=DRIVER
+TARGETPATH=obj
+NO_SAFESEH=1
+INCLUDES=$(WD_BASEDIR)\include;$(WD_BASEDIR)
+TARGETLIBS= \
+    E:\WinDriver\lib\windrvr6.lib \
+    $(DDK_LIB_PATH)\ntoskrnl.lib \
+$(DDK_LIB_PATH)\usbd.lib
+SOURCES= PCI_0228.rc

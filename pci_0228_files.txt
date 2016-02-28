@@ -1,0 +1,33 @@
+The DriverWizard has created:
+* A sample diagnostics application for testing the communication with
+  your hardware from the user mode.
+* Library files, which include API for controling your hardware.
+  E:/Develop Yuechuan/pci_0228_files.txt
+         A detailed overview of all the generated files.
+
+  E:/Develop Yuechuan/lib/
+         The folder containing the pci dotnet library source code 
+
+  E:/Develop Yuechuan/diag/PCI_0228_diag.cs
+         The sample user-mode application which diagnoses your
+         hardware using the pci dotnet library .
+
+  E:/Develop Yuechuan/pci_0228_msdev_2005_X86.sln
+         Microsoft Developer Studio (.NET 2005) Solution File for the
+         X86 Platform.
+
+  E:/Develop Yuechuan/diag/pci_0228_diag_msdev_2005x86.csproj.
+         Microsoft Developer Studio (.NET 2005) Project File for the
+         X86 Platform.
+
+  E:/Develop Yuechuan/lib/pci_0228_lib_msdev_2005x86.csproj.
+         Microsoft Developer Studio (.NET 2005) Project File for the
+         X86 Platform.
+
+  E:/Develop Yuechuan/pci_0228.inf
+         A formatted reference file for Windows that contains
+         information about installation files and devices, such as
+         filenames, version information and so on.
+
+Compiling this project:
+  For MSDEV.NET, open Visual Studio .NET, load the project file and compile

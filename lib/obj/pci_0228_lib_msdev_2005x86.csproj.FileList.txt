@@ -1,0 +1,10 @@
+bin\Debug\v2.0.50727\pci_0228_lib.dll
+bin\Debug\v2.0.50727\pci_0228_lib.pdb
+bin\Debug\v2.0.50727\wdapi_dotnet1000.dll
+obj\Win32\Debug\ResolveAssemblyReference.cache
+obj\Win32\Debug\pci_0228_lib.dll
+obj\Win32\Debug\pci_0228_lib.pdb
+bin\Release\v2.0.50727\pci_0228_lib.dll
+bin\Release\v2.0.50727\wdapi_dotnet1000.dll
+obj\Win32\Release\ResolveAssemblyReference.cache
+obj\Win32\Release\pci_0228_lib.dll

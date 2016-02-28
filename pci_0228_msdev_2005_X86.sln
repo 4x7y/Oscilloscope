@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pci_0228_lib", "lib\pci_0228_lib_msdev_2005x86.csproj", "{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pci_0228_diag", "diag\pci_0228_diag_msdev_2005x86.csproj", "{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42} = {73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}.Debug|Win32.Build.0 = Debug|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}.Release|Win32.ActiveCfg = Release|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F42}.Release|Win32.Build.0 = Release|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F43}.Debug|Win32.Build.0 = Debug|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F43}.Release|Win32.ActiveCfg = Release|Win32
+		{73E4CFBA-782E-4A35-B4BD-8E1FDE9E5F43}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
